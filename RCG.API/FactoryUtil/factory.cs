@@ -12,9 +12,9 @@ namespace FactoryUtil
 {
     public class factory
     {
-        public IRCGBusiness GetBusiness()
+        public IRCGBusiness GetBusiness(IRCGRepository repo)
         {
-            return new RCGBusiness(GetRepository());
+            return new RCGBusiness(repo);
         }
 
         public IRCGRepository GetRepository()

@@ -44,6 +44,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RCG.Common\RCG.Common.csproj">
+      <Project>{572b3d92-4053-4b23-80dd-9b8303748d52}</Project>
+      <Name>RCG.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RCG.Repository\RCG.Repository.csproj">
       <Project>{28635be6-66f2-4709-b818-1a7de65c6bf7}</Project>
       <Name>RCG.Repository</Name>

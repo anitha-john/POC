@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RCG.Common;
 
 namespace RCG.Business.Modules
 {
@@ -16,5 +17,10 @@ namespace RCG.Business.Modules
             repoObject = repository;
         }
 
+
+        public Breaks GetUCCBreaks(UCCFilter filter)
+        {
+            return new Breaks();
+        }
     }
 }
